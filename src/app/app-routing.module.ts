@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'tool-setup',
+    loadChildren: () => import('./modals/tool-setup/tool-setup.module').then( m => m.ToolSetupPageModule)
+  },
 ];
 
 @NgModule({

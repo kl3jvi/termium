@@ -1,20 +1,123 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
+    <ion-title mode="ios">
+      Termium
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-item lines="none" color="#393E46">
+    <ion-searchbar (ionInput)="filterList($event)" class="searchi" color="secondary" mode="ios"></ion-searchbar>
+  </ion-item>
+  <ion-item lines="none" color="#393E46">
+    <ion-label color="medium">Tool List</ion-label>
+  </ion-item>
+    <ion-card class="top" *ngFor="let info of tools" class="card-ios" mode="ios">
+      <ion-item *ngIf="data" (click)="openModal(info.id)">
+        <img class="img" src="{{info.photo}}">
+        <ion-label>{{info.name}}</ion-label>
+        <p class="category">{{info.category}}</p>
+      </ion-item>
+    </ion-card>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-content *ngIf="!data">
+      <ion-card class="card-ios" mode="ios">
+        <ion-item>
+          <ion-thumbnail class="img">
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </ion-thumbnail>
+          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
+        </ion-item>
+      </ion-card>
+
+      <ion-card class="card-ios" mode="ios">
+        <ion-item>
+          <ion-thumbnail class="img">
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </ion-thumbnail>
+          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
+        </ion-item>
+      </ion-card>
+
+      <ion-card class="card-ios" mode="ios">
+        <ion-item>
+          <ion-thumbnail class="img">
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </ion-thumbnail>
+          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
+        </ion-item>
+      </ion-card>
+
+      <ion-card class="card-ios" mode="ios">
+        <ion-item>
+          <ion-thumbnail class="img">
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </ion-thumbnail>
+          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
+        </ion-item>
+      </ion-card>
+
+      <ion-card class="card-ios" mode="ios">
+        <ion-item>
+          <ion-thumbnail class="img">
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </ion-thumbnail>
+          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
+        </ion-item>
+      </ion-card>
+
+      <ion-card class="card-ios" mode="ios">
+        <ion-item>
+          <ion-thumbnail class="img">
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </ion-thumbnail>
+          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
+        </ion-item>
+      </ion-card>
+
+      <ion-card class="card-ios" mode="ios">
+        <ion-item>
+          <ion-thumbnail class="img">
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </ion-thumbnail>
+          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
+        </ion-item>
+      </ion-card>
+
+      <ion-card class="card-ios" mode="ios">
+        <ion-item>
+          <ion-thumbnail class="img">
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </ion-thumbnail>
+          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
+        </ion-item>
+      </ion-card>
+
+      <ion-card class="card-ios" mode="ios">
+        <ion-item>
+          <ion-thumbnail class="img">
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </ion-thumbnail>
+          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
+        </ion-item>
+      </ion-card>
+
+      <ion-card class="card-ios" mode="ios">
+        <ion-item>
+          <ion-thumbnail class="img">
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </ion-thumbnail>
+          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
+        </ion-item>
+      </ion-card>
+
+
+
+
+
+
+    
+      
+    </ion-content>
 </ion-content>

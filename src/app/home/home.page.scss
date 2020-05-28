@@ -1,27 +1,28 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.k{
+  height: 100px;
+}
+.card-ios{
+  margin: 8px;
+}
+.img{
+  width: 25px;
+  height: 25px;
+  margin: 1px;
+  border-radius: 4px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.searchi{
+  padding: 1px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.med{
+  color: #e3e3e3;
+}
+ion-label{
+  padding-left: 6px;
+}
+.category{
+  color: #393E46;
+  font-size: smaller;
 }
 
-#container a {
-  text-decoration: none;
-}
