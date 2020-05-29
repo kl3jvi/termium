@@ -15,6 +15,6 @@ import { ToolSetupPage } from './tool-setup.page';
     IonicModule,
     ToolSetupPageRoutingModule
   ],
-  declarations: [ToolSetupPage]
+  declarations: []
 })
 export class ToolSetupPageModule {}
