@@ -1,0 +1,33 @@
+<ion-content>
+  <ion-slides pager="true">
+    <ion-slide class="step-one">
+      <img src="https://image.flaticon.com/icons/svg/1759/1759339.svg">
+      <h1>Search</h1>
+      <p class="p">
+        Search through our database with over 150 tools.
+      </p>
+      <ion-button color="dark" (click)="next()">Next</ion-button>
+    </ion-slide>
+
+    <ion-slide class="step-two">
+      <img src="https://image.flaticon.com/icons/svg/2824/2824874.svg">
+      <h1>Detailed Instructions</h1>
+      <p class="p">
+        Follow our detailed guide on installing these tools.
+      </p>
+      <ion-button color="dark" (click)="next()">Next</ion-button>
+    </ion-slide>
+
+    <ion-slide class="step-three">
+      <img src="https://image.flaticon.com/icons/svg/1759/1759311.svg">
+      <h1>What's your name?</h1>
+      <p class="p">
+        We need your name only to personalise your terminal :)
+      </p><br>
+      <ion-input [(ngModel)]="name" placeholder="Username" class="pe">
+
+      </ion-input >
+      <ion-button color="dark" (click)="finish()">Finish</ion-button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

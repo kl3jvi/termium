@@ -1,0 +1,40 @@
+ion-slide{
+    height: 100vh;
+    flex-direction: column;
+    text-align: justify;
+}
+
+img{
+    max-width: 50vw;
+    max-height: 50vh;
+    overflow: hidden;
+}
+
+.p{
+    padding: 1em;
+    text-align: center;
+}
+
+.pe{
+    border-radius: 10px !important;
+    padding: 1em;
+    font-size: 0.9em;
+    border: 1px solid #f1f1f1 !important;
+    --background: #222831 !important;
+    /* height: 10%; */
+    /* width: 41%; */
+    max-width: 80vw; // this is applying perfectly
+    max-height: 2em;
+}
+
+.step-one{
+    color: var(--ion-color-primary-contrast);
+}
+
+.step-two{
+    color: var(--ion-color-primary-contrast);
+}
+
+.step-three{
+    color: var(--ion-color-primary-contrast);
+}

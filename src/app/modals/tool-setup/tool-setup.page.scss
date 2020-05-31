@@ -1,0 +1,58 @@
+body {
+    background-color: #272727;
+    padding: 10px;
+  }
+  
+  .fakeButtons {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    position: relative;
+    top: 6px;
+    left: 6px;
+    background-color: #ff3b47;
+    border-color: #9d252b;
+    display: inline-block;
+  }
+
+  
+.fakeMinimize {
+    left: 11px;
+    background-color: #ffc100;
+    border-color: #9d802c;
+  }
+  
+  .fakeZoom {
+    left: 16px;
+    background-color: #00d742;
+    border-color: #049931;
+  }
+  
+  .fakeMenu {
+    width: 550px;
+    box-sizing: border-box;
+    height: 25px;
+    background-color: #e3e3e3;
+    margin: 0 auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  .fakeScreen {
+    background-color: #151515;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .line1 {
+    color: #00f100;
+  }
+
+  .cursor1{
+      color: #e3e3e3;
+  }
