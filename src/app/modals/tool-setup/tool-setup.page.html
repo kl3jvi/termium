@@ -16,11 +16,15 @@
     </div>
     <div class="fakeScreen">
       <p class="line1">[{{user}}@termium] $ <span class="cursor1">apt update</span></p>
-      <p *ngFor="let package_name of data" class="line1">[user@termium] $ <span class="cursor1">pkg install {{package_name}}</span></p>
+      <p class="line1">[{{user}}@termium] $ <span class="cursor1">apt upgrade</span></p>
+      <p *ngFor="let package_name of dependency" class="line1">[{{user}}@termium] $ <span class="cursor1">pkg install
+          {{package_name}}</span></p>
       <p class="line1">[{{user}}@termium] $ <span class="cursor1">git clone {{url}}</span></p>
       <p class="line1">[{{user}}@termium] $ <span class="cursor1">Usage:_ </span></p>
       <p class="line1">[{{user}}@termium] $ <span class="cursor1">cd {{title}}</span></p>
-      
+      <p class="line1">[{{user}}@termium] $ <span class="cursor1">chmod +x *</span></p>
+      <p class="line1">[{{user}}@termium] $ <span class="cursor1"></span></p>
     </div>
   </ion-card>
+  
 </ion-content>

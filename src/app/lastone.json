@@ -1,0 +1,124 @@
+{
+    "phishingTools": [
+      {
+        "id": "1",
+        "name": "SocialFish",
+        "package_name": "SocialFish",
+        "category": "Phishing/Spoofing",
+        "url": "https://github.com/UndeadSec/SocialFish.git",
+        "package_manager": "git",
+        "dependency": ["python", "git"]
+      },
+      {
+        "id": "2",
+        "name": "catphish",
+        "package_name": "catphish",
+        "category": "Phishing/Spoofing",
+        "url": "https://github.com/ring0lab/catphish.git",
+        "package_manager": "git",
+        "dependency": ["ruby", "git"]
+      },
+      {
+        "id": "3",
+        "name": "weeman",
+        "package_name": "weeman",
+        "category": "Phishing/Spoofing",
+        "url": "https://github.com/evait-security/weeman.git",
+        "package_manager": "git",
+        "dependency": ["python", "git"]
+      },
+      {
+        "id": "4",
+        "name": "wifiphisher",
+        "package_name": "wifiphisher",
+        "category": "Phishing/Spoofing",
+        "url": "https://github.com/wifiphisher/wifiphisher.git",
+        "package_manager": "git",
+        "dependency": ["python", "git"]
+      },
+      {
+        "id": "5",
+        "name": "catphish",
+        "package_name": "catphish",
+        "category": "Phishing/Spoofing",
+        "url": "https://github.com/ring0lab/catphish.git",
+        "package_manager": "git",
+        "dependency": ["ruby", "git"]
+      }
+    ],
+    "informationGathering": [
+      {
+          "id":"1",
+        "name": "D-TECT",
+        "package_name": "D-TECT",
+        "category": "Information Gathering",
+        "url": "https://github.com/shawarkhanethicalhacker/D-TECT.git",
+        "package_manager": "git",
+        "dependency": ["python", "git"]
+      },
+      {
+        "id": "2",
+        "name": "Lazymux",
+        "package_name": "Lazymux",
+        "category": "Information Gathering",
+        "url": "https://github.com/Gameye98/Lazymux.git",
+        "package_manager": "git",
+        "dependency": ["python", "git"]
+      },
+      {
+        "id": "3",
+        "name": "ReconDog",
+        "package_name": "ReconDog",
+        "category": "Information Gathering",
+        "url": "https://github.com/UltimateHackers/ReconDog.git",
+        "package_manager": "git",
+        "dependency": ["python", "git"]
+      },
+      {
+        "id": "4",
+        "name": "Crips",
+        "package_name": "Crips",
+        "category": "Information Gathering",
+        "url": "https://github.com/Manisso/Crips.git",
+        "package_manager": "git",
+        "dependency": ["python", "git"]
+      },
+      {
+        "id": "5",
+        "name": "EvilURL",
+        "package_name": "EvilURL",
+        "category": "Information Gathering",
+        "url": "https://github.com/UndeadSec/EvilURL.git",
+        "package_manager": "git",
+        "dependency": ["python", "git"]
+      },
+      {
+        "id": "6",
+        "name": "Tool-X",
+        "package_name": "Tool-X",
+        "category": "Information Gathering",
+        "url": "https://github.com/Rajkumrdusad/Tool-X.git",
+        "package_manager": "git",
+        "dependency": ["python", "git"]
+      },
+      { 
+        "id": "7",
+        "name" : "angryFuzzer",
+        "package_name" : "angryFuzzer",
+        "category" : "Information Gathering",
+        "url" : "https://github.com/ihebski/angryFuzzer.git",
+        "package_manager" : "git",
+        "dependency" : ["python","git"]
+      },
+      { 
+        "id": "8",
+        "name" : "IPGeoLocation",
+        "package_name" : "IPGeoLocation",
+        "category" : "Information Gathering",
+        "url" : "https://github.com/maldevel/IPGeoLocation.git",
+        "package_manager" : "git",
+        "dependency" : ["python","git"]
+      }
+    ]
+  }
+  

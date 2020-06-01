@@ -7,21 +7,25 @@ import { Storage } from '@ionic/storage'
   styleUrls: ['./tool-setup.page.scss'],
 })
 export class ToolSetupPage implements OnInit {
+  slideOpts = {
+    slidesPerView: 2
+  }
 
-  constructor(private modalController: ModalController,private storage: Storage) { }
-  title;
-  data;
-  url;
-  json
-  user;
+  constructor(private modalController: ModalController, private storage: Storage) { }
+  title: any;
+  dependency: any;
+  url: any;
+  user: any;
+  com;
+
 
   ngOnInit() {
-   this.storage.get('name').then((result) => {
-    this.user=result;
-});
-}
+    this.storage.get('name').then((result) => {
+      this.user = result;
+    });
+  }
 
-  async closeModal(){
+  async closeModal() {
     await this.modalController.dismiss();
   }
 }

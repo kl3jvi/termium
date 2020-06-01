@@ -8,7 +8,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Hackplayers/4nonimizer.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "2",
@@ -18,7 +19,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996315.svg",
       "url": "https://github.com/Xi4u7/A-Rat.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "3",
@@ -28,7 +30,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/ASHWIN990/ADB-Toolkit.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "4",
@@ -38,7 +41,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996315.svg",
       "url": "https://github.com/AlisamTechnology/ATSCAN.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "5",
@@ -48,7 +52,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/AndroBugs/AndroBugs_Framework.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "6",
@@ -58,7 +63,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/TunisianEagles/Androspy.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "7",
@@ -68,7 +74,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/nxxxu/AutoPixieWps.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "8",
@@ -78,7 +85,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/1aN0rmus/TekDefense-Automater.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "9",
@@ -88,7 +96,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Gameye98/Auxscan.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "10",
@@ -98,7 +107,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/engMaher/BAF.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "11",
@@ -108,7 +118,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/MrSqar-Ye/BadMod.git",
       "package_manager": "git",
-      "dependency": ["php", "git"]
+      "dependency": ["php", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "12",
@@ -118,7 +129,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/4w4k3/BeeLogger.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "13",
@@ -128,7 +140,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Gameye98/Black-Hydra.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "14",
@@ -138,7 +151,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/UltimateHackers/Blazy.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "15",
@@ -148,7 +162,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2920/2920277.svg",
       "url": "https://github.com/UltimateHackers/Breacher.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "16",
@@ -158,7 +173,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996315.svg",
       "url": "https://github.com/Screetsec/Brutal.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "17",
@@ -168,7 +184,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2920/2920277.svg",
       "url": "https://github.com/1N3/BruteX.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "18",
@@ -178,7 +195,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/tiagorlampert/CHAOS.git",
       "package_manager": "git",
-      "dependency": ["golang", "git"]
+      "dependency": ["golang", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "19",
@@ -188,7 +206,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Tuhinshubhra/CMSeeK.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "20",
@@ -198,7 +217,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/Dionach/CMSmap.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "21",
@@ -208,7 +228,8 @@
       "photo": "https://image.flaticon.com/icons/svg/3003/3003411.svg",
       "url": "https://github.com/digininja/CeWL.git",
       "package_manager": "git",
-      "dependency": ["ruby", "git"]
+      "dependency": ["ruby", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "22",
@@ -218,7 +239,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/D4Vinci/Clickjacking-Tester.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "23",
@@ -228,7 +250,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Xyl2k/Cookie-stealer.git",
       "package_manager": "git",
-      "dependency": ["php", "git"]
+      "dependency": ["php", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "24",
@@ -238,7 +261,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/abaykan/CrawlBox.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "25",
@@ -248,7 +272,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/ustayready/CredSniper.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "26",
@@ -258,7 +283,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/Manisso/Crips.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "27",
@@ -268,7 +294,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/medbenali/CyberScan.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "28",
@@ -278,7 +305,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/shawarkhanethicalhacker/D-TECT.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "29",
@@ -288,7 +316,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2333/2333011.svg",
       "url": "https://github.com/kamorin/DHCPig.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "30",
@@ -298,7 +327,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Mr-Un1k0d3r/DKMC.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "31",
@@ -308,7 +338,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996157.svg",
       "url": "https://github.com/stamparm/DSSS.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "32",
@@ -318,7 +349,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/stamparm/DSVW.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "33",
@@ -328,7 +360,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/stamparm/DSXS.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "34",
@@ -338,7 +371,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/joker25000/Devploit.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "35",
@@ -348,7 +382,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/D4Vinci/Dr0p1t-Framework.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "36",
@@ -358,7 +393,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Screetsec/Dracnmap.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "37",
@@ -368,7 +404,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/ThoughtfulDev/EagleEye.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "38",
@@ -378,7 +415,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/sabri-zaki/EasY_HaCk.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "39",
@@ -388,7 +426,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/neoneggplant/EggShell.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "40",
@@ -398,7 +437,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Juniorn1003/Email-Spammer.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "41",
@@ -408,7 +448,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/EmpireProject/Empire.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "42",
@@ -418,7 +459,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/UndeadSec/EvilURL.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "43",
@@ -428,7 +470,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996315.svg",
       "url": "https://github.com/r00tmars/ExploitOnCLI.git",
       "package_manager": "git",
-      "dependency": ["php", "git"]
+      "dependency": ["php", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "44",
@@ -438,7 +481,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/FortyNorthSecurity/EyeWitness.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "45",
@@ -448,7 +492,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/mrSilent0598/FBUPv2.0.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "46",
@@ -458,7 +503,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/r00t-3xp10it/FakeImageExploiter.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "47",
@@ -468,7 +514,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/1N3/Findsploit.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "48",
@@ -478,7 +525,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Ha3MrX/Gemail-Hack.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "49",
@@ -488,7 +536,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/StreetSec/Gloom-Framework.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "50",
@@ -498,7 +547,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/UndeadSec/GoblinWordGenerator.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "51",
@@ -508,7 +558,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2333/2333011.svg",
       "url": "https://github.com/jseidl/GoldenEye.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "52",
@@ -518,7 +569,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/SilentGhostX/HT-WPS-Breaker.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "53",
@@ -528,7 +580,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/mehedishakeel/HTools.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "54",
@@ -538,7 +591,8 @@
       "photo": "https://image.flaticon.com/icons/svg/3003/3003411.svg",
       "url": "https://github.com/UltimateHackers/Hash-Buster.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "55",
@@ -548,7 +602,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/MetaChar/Hatch.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "56",
@@ -558,7 +613,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/DarkSecDevelopers/HiddenEye.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "57",
@@ -568,7 +624,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/T4P4N/IP-FY.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "58",
@@ -578,7 +635,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/zanyarjamal/IP-Locator.git",
       "package_manager": "git",
-      "dependency": ["perl", "git"]
+      "dependency": ["perl", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "59",
@@ -588,7 +646,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/Rajkumrdusad/IP-Tracer",
       "package_manager": "git",
-      "dependency": ["php", "git"]
+      "dependency": ["php", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "60",
@@ -598,7 +657,8 @@
       "photo": "https://image.flaticon.com/icons/png/512/854/854878.png",
       "url": "https://github.com/maldevel/IPGeoLocation.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "61",
@@ -608,7 +668,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/leapsecurity/InSpy.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "62",
@@ -618,7 +679,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/m4ll0k/Infoga.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "63",
@@ -628,7 +690,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/avramit/Instahack.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "64",
@@ -638,7 +701,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996170.svg",
       "url": "https://github.com/deadbits/Intersect-2.5.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "65",
@@ -648,7 +712,8 @@
       "photo": "https://image.flaticon.com/icons/svg/3003/3003411.svg",
       "url": "https://github.com/magnumripper/JohnTheRipper.git",
       "package_manager": "git",
-      "dependency": ["clang", "gcc", "g++", "git"]
+      "dependency": ["clang", "gcc", "g++", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "66",
@@ -658,7 +723,8 @@
       "photo": "https://image.flaticon.com/icons/svg/3003/3003411.svg",
       "url": "https://github.com/ASHWIN990/JTRE.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "67",
@@ -668,7 +734,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/PowerScript/KatanaFramework.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "68",
@@ -678,7 +745,8 @@
       "photo": "https://image.flaticon.com/icons/png/512/1995/1995788.png",
       "url": "https://github.com/4w4k3/KnockMail.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "69",
@@ -688,7 +756,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Screetsec/LALIN.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "70",
@@ -698,7 +767,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/D35m0nd142/LFISuite.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "71",
@@ -708,7 +778,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2333/2333011.svg",
       "url": "https://github.com/4L13199/LITEDDOS.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "72",
@@ -718,7 +789,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/4L13199/LITESPAM.git",
       "package_manager": "git",
-      "dependency": ["php", "git"]
+      "dependency": ["php", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "73",
@@ -728,7 +800,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Gameye98/Lazymux.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "74",
@@ -738,7 +811,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/GitHackTools/Leaked.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "75",
@@ -748,17 +822,19 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/MetaChar/Mercury.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "76",
       "name": "MyServer",
       "package_name": "MyServer",
       "category": "Web Server",
-        "photo" : "https://image.flaticon.com/icons/svg/2943/2943239.svg",
-"url": "https://github.com/Rajkumrdusad/MyServer.git",
+      "photo": "https://image.flaticon.com/icons/svg/2943/2943239.svg",
+      "url": "https://github.com/Rajkumrdusad/MyServer.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "77",
@@ -768,7 +844,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Hax4us/Nethunter-In-Termux.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "78",
@@ -778,7 +855,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/ciku370/OSIF.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "79",
@@ -788,7 +866,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2920/2920277.svg",
       "url": "https://github.com/AonCyberLabs/PadBuster.git",
       "package_manager": "git",
-      "dependency": ["perl", "git"]
+      "dependency": ["perl", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "80",
@@ -798,7 +877,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/micle-fm/Parat.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "81",
@@ -808,7 +888,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/behindthefirewalls/Parsero.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "82",
@@ -818,7 +899,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/WiPi-Hunter/PiDense.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "83",
@@ -828,7 +910,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2333/2333011.svg",
       "url": "https://github.com/Hydra7/Planetwork-DDOS.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "84",
@@ -838,7 +921,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996170.svg",
       "url": "https://github.com/PowerShellMafia/PowerSploit.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "85",
@@ -848,7 +932,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/SilverFoxx/PwnSTAR.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "86",
@@ -858,7 +943,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/ikkebr/PyBozoCrack.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "87",
@@ -868,17 +954,19 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Ekultek/Pybelt.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "88",
       "name": "Pyrit",
       "package_name": "Pyrit",
       "category": "Wifi Testing",
-        "photo" : "https://image.flaticon.com/icons/png/512/254/254000.png",
-"url": "https://github.com/JPaulMora/Pyrit.git",
+      "photo": "https://image.flaticon.com/icons/png/512/254/254000.png",
+      "url": "https://github.com/JPaulMora/Pyrit.git",
       "package_manager": "git",
-      "dependency": ["python", "clang", "gcc", "git"]
+      "dependency": ["python", "clang", "gcc", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "89",
@@ -888,7 +976,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/OWASP/QRLJacking.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "90",
@@ -898,17 +987,19 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996157.svg",
       "url": "https://github.com/Tuhinshubhra/RED_HAWK.git",
       "package_manager": "git",
-      "dependency": ["php", "git"]
+      "dependency": ["php", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "91",
       "name": "RTLSDR-Scanner",
       "package_name": "RTLSDR-Scanner",
       "category": "Wifi Testing",
-        "photo" : "https://image.flaticon.com/icons/png/512/254/254000.png",
-"url": "https://github.com/EarToEarOak/RTLSDR-Scanner.git",
+      "photo": "https://image.flaticon.com/icons/png/512/254/254000.png",
+      "url": "https://github.com/EarToEarOak/RTLSDR-Scanner.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "92",
@@ -918,16 +1009,19 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/UltimateHackers/ReconDog.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "93",
       "name": "RegRipper2.8",
       "package_name": "RegRipper2.8",
       "category": "Forensics Tools",
+      "photo": "https://image.flaticon.com/icons/svg/2333/2333134.svg",
       "url": "https://github.com/keydet89/RegRipper2.8.git",
       "package_manager": "git",
-      "dependency": ["perl", "git"]
+      "dependency": ["perl", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "94",
@@ -937,7 +1031,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/KeepWannabe/Remot3d.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "95",
@@ -947,7 +1042,8 @@
       "photo": "https://image.flaticon.com/icons/png/512/1995/1995788.png",
       "url": "https://github.com/lgandx/Responder.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "96",
@@ -957,7 +1053,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/1N3/ReverseAPK.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "97",
@@ -967,7 +1064,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2920/2920277.svg",
       "url": "https://github.com/googleinurl/SCANNER-INURLBR.git",
       "package_manager": "git",
-      "dependency": ["php", "git"]
+      "dependency": ["php", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "98",
@@ -977,7 +1075,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/trustedsec/social-engineer-toolkit.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "99",
@@ -987,7 +1086,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996157.svg",
       "url": "https://github.com/LOoLzeC/SH33LL.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "100",
@@ -997,7 +1097,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/m4ll0k/SMBrute.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "101",
@@ -1007,7 +1108,8 @@
       "photo": "https://image.flaticon.com/icons/svg/3003/3003411.svg",
       "url": "https://github.com/danielmiessler/SecLists.git",
       "package_manager": "git",
-      "dependency": ["php", "perl", "git"]
+      "dependency": ["php", "perl", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "102",
@@ -1017,7 +1119,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996157.svg",
       "url": "https://github.com/orgcandman/Simple-Fuzzer.git",
       "package_manager": "git",
-      "dependency": ["clang", "gcc", "git"]
+      "dependency": ["clang", "gcc", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "103",
@@ -1027,7 +1130,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/1N3/Sn1per.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "104",
@@ -1037,7 +1141,8 @@
       "photo": "https://image.flaticon.com/icons/png/512/1995/1995788.png",
       "url": "https://github.com/TunisianEagles/SocialBox.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "105",
@@ -1047,7 +1152,8 @@
       "photo": "https://image.flaticon.com/icons/svg/3003/3003411.svg",
       "url": "https://github.com/UndeadSec/SocialFish.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "106",
@@ -1057,7 +1163,8 @@
       "photo": "https://image.flaticon.com/icons/png/512/1995/1995788.png",
       "url": "https://github.com/p4kl0nc4t/Spammer-Email.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "107",
@@ -1067,7 +1174,8 @@
       "photo": "https://image.flaticon.com/icons/png/512/1995/1995788.png",
       "url": "https://github.com/p4kl0nc4t/Spammer-Grab.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "108",
@@ -1077,7 +1185,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/nathanlopez/Stitch.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "109",
@@ -1087,7 +1196,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996157.svg",
       "url": "https://github.com/s0md3v/Striker.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "110",
@@ -1097,16 +1207,19 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/aboul3la/Sublist3r.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "111",
       "name": "TermuxAlpine",
       "package_name": "TermuxAlpine",
-      "category": "Termux OS",
+      "category": "Termux Os",
+      "photo": "https://image.flaticon.com/icons/svg/888/888879.svg",
       "url": "https://github.com/Hax4us/TermuxAlpine.git",
       "package_manager": "git",
-      "dependency": ["git", "proot"]
+      "dependency": ["git", "proot"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "112",
@@ -1116,7 +1229,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Moham3dRiahi/Th3inspector.git",
       "package_manager": "git",
-      "dependency": ["perl", "git"]
+      "dependency": ["perl", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "113",
@@ -1126,7 +1240,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/EgeBalci/The-Eye.git",
       "package_manager": "git",
-      "dependency": ["golang", "git"]
+      "dependency": ["golang", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "114",
@@ -1136,7 +1251,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Screetsec/TheFatRat.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "115",
@@ -1146,7 +1262,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Rajkumrdusad/Tool-X.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "116",
@@ -1156,7 +1273,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/s0cket7/TorStat.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "117",
@@ -1166,7 +1284,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/toxic-ig/Trity.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "119",
@@ -1176,7 +1295,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/4w4k3/Umbrella.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "120",
@@ -1186,7 +1306,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Screetsec/Vegile.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "121",
@@ -1196,7 +1317,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2920/2920277.svg",
       "url": "https://github.com/m4ll0k/WAScan.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "122",
@@ -1206,7 +1328,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2920/2920277.svg",
       "url": "https://github.com/mintobit/WP-plugin-scanner.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "123",
@@ -1216,7 +1339,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/m4ll0k/WPSeku.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "124",
@@ -1226,7 +1350,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2920/2920277.svg",
       "url": "https://github.com/OWASP/OWASP-WebScarab.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "125",
@@ -1236,7 +1361,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2920/2920277.svg",
       "url": "https://github.com/a0xnirudh/WebXploiter.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "126",
@@ -1246,27 +1372,30 @@
       "photo": "https://image.flaticon.com/icons/svg/2920/2920277.svg",
       "url": "https://github.com/urbanadventurer/WhatWeb.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "127",
       "name": "WiFi-Pumpkin",
       "package_name": "WiFi-Pumpkin",
       "category": "Wifi Testing",
-        "photo" : "https://image.flaticon.com/icons/png/512/254/254000.png",
-"url": "https://github.com/P0cL4bs/WiFi-Pumpkin.git",
+      "photo": "https://image.flaticon.com/icons/png/512/254/254000.png",
+      "url": "https://github.com/P0cL4bs/WiFi-Pumpkin.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "128",
       "name": "WifiBruteCrack",
       "package_name": "WifiBruteCrack",
       "category": "Wifi Testing",
-        "photo" : "https://image.flaticon.com/icons/png/512/254/254000.png",
-"url": "https://github.com/cinquemb/WifiBruteCrack.git",
+      "photo": "https://image.flaticon.com/icons/png/512/254/254000.png",
+      "url": "https://github.com/cinquemb/WifiBruteCrack.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "129",
@@ -1276,7 +1405,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/nccgroup/Winpayloads.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "130",
@@ -1286,7 +1416,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996315.svg",
       "url": "https://github.com/Moham3dRiahi/XAttacker.git",
       "package_manager": "git",
-      "dependency": ["perl", "php", "git"]
+      "dependency": ["perl", "php", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "131",
@@ -1296,7 +1427,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2920/2920277.svg",
       "url": "https://github.com/r00tmars/XPL-SEARCH.git",
       "package_manager": "git",
-      "dependency": ["php", "git"]
+      "dependency": ["php", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "132",
@@ -1306,7 +1438,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/s0md3v/XSStrike.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "133",
@@ -1316,7 +1449,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996157.svg",
       "url": "https://github.com/Manisso/Xshell.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "134",
@@ -1326,7 +1460,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Souhardya/Zerodoor.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "135",
@@ -1336,7 +1471,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2920/2920277.svg",
       "url": "https://github.com/bdblackhat/admin-panel-finder.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "136",
@@ -1346,15 +1482,16 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/Wh1t3Rh1n0/air-hammer.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "137",
       "name": "aircrack-ng",
       "package_name": "aircrack-ng",
       "category": "Wifi Testing",
-        "photo" : "https://image.flaticon.com/icons/png/512/254/254000.png",
-"url": null,
+      "photo": "https://image.flaticon.com/icons/png/512/254/254000.png",
+      "url": null,
       "package_manager": "package_manager",
       "dependency": "Uncategorised"
     },
@@ -1363,10 +1500,11 @@
       "name": "airgeddon",
       "package_name": "airgeddon",
       "category": "Wifi Testing",
-        "photo" : "https://image.flaticon.com/icons/png/512/254/254000.png",
-"url": "https://github.com/v1s1t0r1sh3r3/airgeddon.git",
+      "photo": "https://image.flaticon.com/icons/png/512/254/254000.png",
+      "url": "https://github.com/v1s1t0r1sh3r3/airgeddon.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "139",
@@ -1376,15 +1514,16 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/ihebski/angryFuzzer.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "140",
       "name": "apache2",
       "package_name": "apache2",
       "category": "Web Server",
-        "photo" : "https://image.flaticon.com/icons/svg/2943/2943239.svg",
-"url": null,
+      "photo": "https://image.flaticon.com/icons/svg/2943/2943239.svg",
+      "url": null,
       "package_manager": "package_manager",
       "dependency": "Uncategorised"
     },
@@ -1396,16 +1535,19 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/MooseDojo/apt2.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "142",
       "name": "arch-linux",
       "package_name": "setupTermuxArch.sh",
-      "category": "Termux OS",
+      "category": "Termux Os",
+      "photo": "https://image.flaticon.com/icons/svg/888/888879.svg",
       "url": "https://raw.githubusercontent.com/sdrausty/TermuxArch/master/setupTermuxArch.sh",
       "package_manager": "curl",
-      "dependency": ["curl", "proot"]
+      "dependency": ["curl", "proot"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "143",
@@ -1415,7 +1557,8 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/royhills/arp-scan.git",
       "package_manager": "git",
-      "dependency": ["clang", "gcc", "git"]
+      "dependency": ["clang", "gcc", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "144",
@@ -1425,7 +1568,8 @@
       "photo": "https://image.flaticon.com/icons/svg/123/123400.svg",
       "url": "https://github.com/govolution/avet.git",
       "package_manager": "git",
-      "dependency": ["clang", "gcc", "git"]
+      "dependency": ["clang", "gcc", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "145",
@@ -1435,7 +1579,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996157.svg",
       "url": "https://github.com/Neohapsis/bbqsql.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "146",
@@ -1445,7 +1590,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996157.svg",
       "url": "https://gitlab.com/kalilinux/packages/bed.git",
       "package_manager": "git",
-      "dependency": ["perl", "git"]
+      "dependency": ["perl", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "147",
@@ -1455,7 +1601,8 @@
       "photo": "https://image.flaticon.com/icons/svg/2996/2996315.svg",
       "url": "https://github.com/beefproject/beef.git",
       "package_manager": "git",
-      "dependency": ["ruby", "git"]
+      "dependency": ["ruby", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "148",
@@ -1465,7 +1612,8 @@
       "photo": "https://image.flaticon.com/icons/png/512/1995/1995788.png",
       "url": "https://github.com/bettercap/bettercap.git",
       "package_manager": "git",
-      "dependency": ["golang", "git"]
+      "dependency": ["golang", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "149",
@@ -1475,16 +1623,19 @@
       "photo": "https://image.flaticon.com/icons/svg/201/201580.svg",
       "url": "https://github.com/urbanadventurer/bing-ip2hosts.git",
       "package_manager": "git",
-      "dependency": ["git"]
+      "dependency": ["git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "150",
       "name": "binwalk",
       "package_name": "binwalk",
       "category": "Forensics Tools",
+      "photo": "https://image.flaticon.com/icons/svg/2333/2333134.svg",
       "url": "https://github.com/ReFirmLabs/binwalk.git",
       "package_manager": "git",
-      "dependency": ["python", "git"]
+      "dependency": ["python", "git"],
+      "LASTCOMMAND": ""
     },
     {
       "id": "151",

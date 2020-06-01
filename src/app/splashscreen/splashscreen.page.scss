@@ -18,12 +18,11 @@ img{
 .pe{
     border-radius: 10px !important;
     padding: 1em;
+    margin-bottom: 1em;
     font-size: 0.9em;
     border: 1px solid #f1f1f1 !important;
     --background: #222831 !important;
-    /* height: 10%; */
-    /* width: 41%; */
-    max-width: 80vw; // this is applying perfectly
+    max-width: 80vw;
     max-height: 2em;
 }
 

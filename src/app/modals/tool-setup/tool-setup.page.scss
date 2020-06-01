@@ -28,9 +28,39 @@ body {
     background-color: #00d742;
     border-color: #049931;
   }
+  p{
+      color: #fff;
+  }
+
+  .tool1{
+    width: 200px;
+    height: 180px;
+  }
+
+  .commentsection{
+    flex-direction: column;
+    text-align: justify;
+    height: 40vh;
+  }
+ion-footer{
+    padding: 1em;
+}
+  ion-input
+    {
+        border-radius: 10px !important;
+        
+        margin-bottom: 1em;
+        font-size: 0.9em;
+        border: 1px solid #f1f1f1 !important;
+        --background: #222831 !important;
+        max-width: 80vw;
+        max-height: 2em;
+        color: #fff;
+    
+  }
   
   .fakeMenu {
-    width: 550px;
+    width: 100%;
     box-sizing: border-box;
     height: 25px;
     background-color: #e3e3e3;
