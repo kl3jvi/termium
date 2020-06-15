@@ -1,8 +1,5 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-buttons (click)="settings()" slot="end">
-      <ion-icon slot="end" name="ellipsis-vertical"></ion-icon>
-    </ion-buttons>
     <ion-title mode="ios">
       Termium
     </ion-title>
@@ -15,53 +12,18 @@
   </ion-item>
 
   <ion-item lines="none" color="#393E46">
-    <ion-label color="medium">Phishing Tools</ion-label>
+    <ion-label color="medium">Tools List</ion-label>
     <ion-icon color="secondary" slot="end" name="caret-down-circle"></ion-icon>
   </ion-item>
 
-    <ion-card class="top" *ngFor="let info of phishingTools" class="card-ios" mode="ios">
+    <ion-card class="top" *ngFor="let info of tools" class="card-ios" mode="ios">
       <ion-item *ngIf="datas" (click)="openModal(info.id)">
         <img class="img" src="https://avatar.oxro.io/avatar.svg?name={{info.name}}">
         <ion-label>{{info.name}}</ion-label>
         <p class="category">{{info.category}}</p>
       </ion-item>
     </ion-card>
-
-
-    <ion-item lines="none" color="#393E46">
-      <ion-label color="medium">Information Gathering</ion-label>
-      <ion-icon color="secondary" slot="end" name="caret-down-circle"></ion-icon>
-    </ion-item>
-
-    <ion-card class="top" *ngFor="let info of informationGathering" class="card-ios" mode="ios">
-      <ion-item *ngIf="datas" (click)="openModal(info.id)">
-        <img class="img" src="https://avatar.oxro.io/avatar.svg?name={{info.name}}">
-        <ion-label>{{info.name}}</ion-label>
-        <p class="category">{{info.category}}</p>
-      </ion-item>
-    </ion-card>
-
-    <ion-item lines="none" color="#393E46">
-      <ion-label color="medium">Vulnerability Analysis</ion-label>
-      <ion-icon color="secondary" slot="end" name="caret-down-circle"></ion-icon>
-    </ion-item>
-
-    <ion-card class="top" *ngFor="let info of vuln" class="card-ios" mode="ios">
-      <ion-item *ngIf="datas" (click)="openModal(info.id)">
-        <img class="img" src="https://avatar.oxro.io/avatar.svg?name={{info.name}}">
-        <ion-label>{{info.name}}</ion-label>
-        <p class="category">{{info.category}}</p>
-      </ion-item>
-    </ion-card>
-
-
-
-
-
-
-
-
-
+    
     <!--skeleton text-->
 
     <ion-content *ngIf="!datas">

@@ -1,124 +1,229 @@
 {
-    "phishingTools": [
-      {
-        "id": "1",
-        "name": "SocialFish",
-        "package_name": "SocialFish",
-        "category": "Phishing/Spoofing",
-        "url": "https://github.com/UndeadSec/SocialFish.git",
-        "package_manager": "git",
-        "dependency": ["python", "git"]
-      },
-      {
-        "id": "2",
-        "name": "catphish",
-        "package_name": "catphish",
-        "category": "Phishing/Spoofing",
-        "url": "https://github.com/ring0lab/catphish.git",
-        "package_manager": "git",
-        "dependency": ["ruby", "git"]
-      },
-      {
-        "id": "3",
-        "name": "weeman",
-        "package_name": "weeman",
-        "category": "Phishing/Spoofing",
-        "url": "https://github.com/evait-security/weeman.git",
-        "package_manager": "git",
-        "dependency": ["python", "git"]
-      },
-      {
-        "id": "4",
-        "name": "wifiphisher",
-        "package_name": "wifiphisher",
-        "category": "Phishing/Spoofing",
-        "url": "https://github.com/wifiphisher/wifiphisher.git",
-        "package_manager": "git",
-        "dependency": ["python", "git"]
-      },
-      {
-        "id": "5",
-        "name": "catphish",
-        "package_name": "catphish",
-        "category": "Phishing/Spoofing",
-        "url": "https://github.com/ring0lab/catphish.git",
-        "package_manager": "git",
-        "dependency": ["ruby", "git"]
-      }
-    ],
-    "informationGathering": [
-      {
-          "id":"1",
-        "name": "D-TECT",
-        "package_name": "D-TECT",
-        "category": "Information Gathering",
-        "url": "https://github.com/shawarkhanethicalhacker/D-TECT.git",
-        "package_manager": "git",
-        "dependency": ["python", "git"]
-      },
-      {
-        "id": "2",
-        "name": "Lazymux",
-        "package_name": "Lazymux",
-        "category": "Information Gathering",
-        "url": "https://github.com/Gameye98/Lazymux.git",
-        "package_manager": "git",
-        "dependency": ["python", "git"]
-      },
-      {
-        "id": "3",
-        "name": "ReconDog",
-        "package_name": "ReconDog",
-        "category": "Information Gathering",
-        "url": "https://github.com/UltimateHackers/ReconDog.git",
-        "package_manager": "git",
-        "dependency": ["python", "git"]
-      },
-      {
-        "id": "4",
-        "name": "Crips",
-        "package_name": "Crips",
-        "category": "Information Gathering",
-        "url": "https://github.com/Manisso/Crips.git",
-        "package_manager": "git",
-        "dependency": ["python", "git"]
-      },
-      {
-        "id": "5",
-        "name": "EvilURL",
-        "package_name": "EvilURL",
-        "category": "Information Gathering",
-        "url": "https://github.com/UndeadSec/EvilURL.git",
-        "package_manager": "git",
-        "dependency": ["python", "git"]
-      },
-      {
-        "id": "6",
-        "name": "Tool-X",
-        "package_name": "Tool-X",
-        "category": "Information Gathering",
-        "url": "https://github.com/Rajkumrdusad/Tool-X.git",
-        "package_manager": "git",
-        "dependency": ["python", "git"]
-      },
-      { 
-        "id": "7",
-        "name" : "angryFuzzer",
-        "package_name" : "angryFuzzer",
-        "category" : "Information Gathering",
-        "url" : "https://github.com/ihebski/angryFuzzer.git",
-        "package_manager" : "git",
-        "dependency" : ["python","git"]
-      },
-      { 
-        "id": "8",
-        "name" : "IPGeoLocation",
-        "package_name" : "IPGeoLocation",
-        "category" : "Information Gathering",
-        "url" : "https://github.com/maldevel/IPGeoLocation.git",
-        "package_manager" : "git",
-        "dependency" : ["python","git"]
-      }
+  "tools": [
+    {
+      "id": "1",
+      "url": "https://github.com/UndeadSec/SocialFish.git",
+      "name": "SocialFish",
+      "category": "Phishing/Spoofing",
+      "dependency": [
+        "python",
+        "git"
+      ],
+      "lastCommand": ["pip2 install -r requirements.txt","python2 SocialFish.py"],
+      "package_name": "SocialPhish",
+      "package_manager": "git"
+    },
+    {
+      "id": "2",
+      "url": "https://github.com/ring0lab/catphish.git",
+      "name": "catphish",
+      "category": "Phishing/Spoofing",
+      "dependency": [
+        "ruby",
+        "git"
+      ],
+      "lastCommand": ["bundle install","catphish.rb [global options] COMMAND [command options]"],
+      "package_name": "catphish",
+      "package_manager": "git"
+    },
+    {
+      "id": "3",
+      "url": "https://github.com/evait-security/weeman.git",
+      "name": "weeman",
+      "category": "Phishing/Spoofing",
+      "dependency": [
+        "python",
+        "git"
+      ],
+      "lastCommand": ["python2 weeman.py","set url http://target.com","set action_url http://target.com", "run"],
+      "package_name": "weeman",
+      "package_manager": "git"
+    },
+    {
+      "id": "4",
+      "url": "https://github.com/wifiphisher/wifiphisher.git",
+      "name": "wifiphisher",
+      "category": "Phishing/Spoofing",
+      "dependency": [
+        "python",
+        "git"
+      ],
+      "lastCommand": ["python setup.py install"],
+      "package_name": "wifiphisher",
+      "package_manager": "git"
+    },
+    {
+      "id": "5",
+      "url": "https://github.com/shawarkhanethicalhacker/D-TECT.git",
+      "name": "D-TECT",
+      "category": "Information Gathering",
+      "dependency": [
+        "python",
+        "git"
+      ],
+      "lastCommand": ["pip2 install requests","python2 d-tect.py"],
+      "package_name": "D-TECT",
+      "package_manager": "git"
+    },
+    {
+      "id": "6",
+      "url": "https://github.com/Gameye98/Lazymux.git",
+      "name": "Lazymux",
+      "category": "Information Gathering",
+      "dependency": [
+        "python",
+        "git"
+      ],
+      "lastCommand": ["python2 lazymux.py"],
+      "package_name": "Lazymux",
+      "package_manager": "git"
+    },
+    {
+      "id": "7",
+      "url": "https://github.com/UltimateHackers/ReconDog.git",
+      "name": "ReconDog",
+      "category": "Information Gathering",
+      "dependency": [
+        "python",
+        "git"
+      ],
+      "lastCommand": ["python2 dog.py"],
+      "package_name": "ReconDog",
+      "package_manager": "git"
+    },
+    {
+      "id": "8",
+      "url": "https://github.com/Manisso/Crips.git",
+      "name": "Crips",
+      "category": "Information Gathering",
+      "dependency": [
+        "python",
+        "git"
+      ],
+      "lastCommand": ["./install.sh","python2 crips.py"],
+      "package_name": "Crips",
+      "package_manager": "git"
+    },
+    {
+      "id": "9",
+      "url": "https://github.com/UndeadSec/EvilURL.git",
+      "name": "EvilURL",
+      "category": "Information Gathering",
+      "dependency": [
+        "python",
+        "git"
+      ],
+      "lastCommand": ["python2 evilurl.py"],
+      "package_name": "EvilURL",
+      "package_manager": "git"
+    },
+    {
+      "id": "10",
+      "url": "https://github.com/Rajkumrdusad/Tool-X.git",
+      "name": "Tool-X",
+      "category": "Information Gathering",
+      "dependency": [
+        "python",
+        "git"
+      ],
+      "lastCommand": ["sh install.sh", "toolx"],
+      "package_name": "Tool-X",
+      "package_manager": "git"
+    },
+    {
+      "id": "11",
+      "url": "https://github.com/ihebski/angryFuzzer.git",
+      "name": "angryFuzzer",
+      "category": "Information Gathering",
+      "dependency": [
+        "python",
+        "git"
+      ],
+      "lastCommand": ["pip2 install -r requirements.txt","pip2 install requests","python2 angryFuzzer.py -h"],
+      "package_name": "angryFuzzer",
+      "package_manager": "git"
+    },
+    {
+      "id": "12",
+      "url": "https://github.com/maldevel/IPGeoLocation.git",
+      "name": "IPGeoLocation",
+      "category": "Information Gathering",
+      "dependency": [
+        "python",
+        "git"
+      ],
+      "lastCommand": ["pip install -r requirements.txt", "python ipgeolocation.py -t [target ip]"],
+      "package_name": "IPGeoLocation",
+      "package_manager": "git"
+    },
+    { 
+      "id":"13",
+      "name" : "CMSmap",
+      "package_name" : "CMSmap",
+      "category" : "Vulnerability Scanner",
+      "url" : "https://github.com/Dionach/CMSmap.git",
+      "package_manager" : "git",
+      "lastCommand": ["python2 cms.py -h"],
+      "dependency" : ["python","git"]
+    },
+    { 
+      "id":"14",
+      "name" : "Clickjacking-Tester",
+      "package_name" : "Clickjacking-Tester",
+      "category" : "Vulnerability Scanner",
+      "url" : "https://github.com/D4Vinci/Clickjacking-Tester.git",
+      "package_manager" : "git",
+      "lastCommand": ["chmod +hm *","Create a new file with .txt containing the target website url and save it.","python3 Clickjacking-tester.py file.txt"],
+      "dependency" : ["python","git"]
+    },
+    { 
+      "id":"15",
+      "name" : "AndroBugs",
+      "package_name" : "AndroBugs_Framework",
+      "category" : "Vulnerability Scanner",
+      "url" : "https://github.com/AndroBugs/AndroBugs_Framework.git",
+      "package_manager" : "git",
+      "lastCommand":["python2 androbugs.py -f /path/to/your/apkfile/app.apk -o result.txt"],
+      "dependency" : ["python","git"]
+    },
+    { "id":"16",
+      "name" : "commix",
+      "package_name" : "commix",
+      "category" : "Vulnerability Scanner",
+      "url" : "https://github.com/commixproject/commix.git",
+      "package_manager" : "git",
+      "lastCommand": ["python2 commix.py -h"],
+      "dependency" : ["python","git"]
+    },
+    { 
+      "id":"17",
+      "name" : "WPSeku",
+      "package_name" : "WPSeku",
+      "category" : "Vulnerability Scanner",
+      "url" : "https://github.com/m4ll0k/WPSeku.git",
+      "package_manager" : "git",
+      "lastCommand": ["pip install -r requirements.txt","python wpseku.py --url http://example-test.com"],
+      "dependency" : ["python","git"]
+    },
+    { 
+      "id":"18",
+      "name" : "routersploit",
+      "package_name" : "routersploit",
+      "category" : "Vulnerability Scanner",
+      "url" : "https://github.com/reverse-shell/routersploit.git",
+      "package_manager" : "git",
+      "lastCommand": ["pip2 install -r requirements-dev.txt", "pip2 install -r requirements.txt", "pip2 install request", "pip2 install request","python2 rsf.py"],
+      "dependency" : ["python","git"]
+    },
+    { 
+      "id": "19",
+      "name" : "nikto",
+      "package_name" : "nikto",
+      "category" : "Vulnerability Scanner",
+      "url" : "https://github.com/sullo/nikto.git",
+      "package_manager" : "git",
+      "lastCommand": ["perl nikto.pl"],
+      "dependency" : ["perl","git"]
+    }
     ]
-  }
-  
+}

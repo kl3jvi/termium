@@ -23,7 +23,7 @@
       <p class="line1">[{{user}}@termium] $ <span class="cursor1">Usage:_ </span></p>
       <p class="line1">[{{user}}@termium] $ <span class="cursor1">cd {{title}}</span></p>
       <p class="line1">[{{user}}@termium] $ <span class="cursor1">chmod +x *</span></p>
-      <p class="line1">[{{user}}@termium] $ <span class="cursor1"></span></p>
+      <p *ngFor="let command of com" class="line1">[{{user}}@termium] $ <span class="cursor1">{{command}}</span></p>
     </div>
   </ion-card>
   

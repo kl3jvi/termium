@@ -21,11 +21,7 @@ const routes: Routes = [
   {
     path: 'splashscreen',
     loadChildren: () => import('./splashscreen/splashscreen.module').then( m => m.SplashscreenPageModule)
-  },
-  {
-    path: 'settings',
-    loadChildren: () => import('./settings/settings.module').then( m => m.SettingsPageModule)
-  },
+  }
 ];
 
 @NgModule({

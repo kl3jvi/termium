@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ModalController } from '@ionic/angular';
-import { Storage } from '@ionic/storage'
+import { Storage } from '@ionic/storage';
+import {AdmobFreeService} from '../../admob.service';
 @Component({
   selector: 'app-tool-setup',
   templateUrl: './tool-setup.page.html',
@@ -11,18 +12,20 @@ export class ToolSetupPage implements OnInit {
     slidesPerView: 2
   }
 
-  constructor(private modalController: ModalController, private storage: Storage) { }
+  constructor(private admobFreeService: AdmobFreeService,private modalController: ModalController, private storage: Storage) { }
   title: any;
   dependency: any;
   url: any;
   user: any;
   com;
+  
 
 
   ngOnInit() {
     this.storage.get('name').then((result) => {
       this.user = result;
     });
+    this.admobFreeService.BannerAd();
   }
 
   async closeModal() {

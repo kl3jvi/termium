@@ -10,6 +10,8 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { IonicStorageModule } from '@ionic/storage';
+import { AdMobFree } from '@ionic-native/admob-free/ngx';
+import {AdmobFreeService} from '../app/admob.service'
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,6 +21,8 @@ import { IonicStorageModule } from '@ionic/storage';
     IonicModule.forRoot(),
     IonicStorageModule.forRoot(),
     AppRoutingModule,
+    AdMobFree,
+    AdmobFreeService,
     HttpClientModule
   ],
   providers: [

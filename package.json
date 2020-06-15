@@ -25,6 +25,7 @@
     "@ionic/angular": "^5.0.0",
     "@ionic/storage": "^2.2.0",
     "cordova-android": "8.1.0",
+    "cordova-plugin-admob-free": "^0.27.0",
     "cordova-sqlite-storage": "^5.0.0",
     "rxjs": "~6.5.1",
     "tslib": "^1.10.0",

@@ -11,36 +11,22 @@ import { Router } from '@angular/router';
 })
 export class HomePage implements OnInit {
 
-  phishingTools: any;
+  tools: any;
   title;
   datas = false;
   dependency: any;
   url;
   com;
-  informationGathering: any;
-  vuln;
+  
   constructor(public router: Router, public http: HttpClient, private modalController: ModalController) { }
 
-  async openModal(a) {
-    for (var i = 0; i < this.phishingTools.length; i++) {
-      if (this.phishingTools[i].id == a) {
-        this.title = this.phishingTools[i]['name'];
-        this.dependency = this.phishingTools[i]['dependency']
-        this.url = this.phishingTools[i]['url'];
-      }
-      for (var i = 0; i < this.informationGathering.length; i++) {
-        if (this.informationGathering[i].id == a) {
-          this.title = this.informationGathering[i]['name'];
-          this.dependency = this.informationGathering[i]['dependency']
-          this.url = this.informationGathering[i]['url'];
-        }
-        for (var i = 0; i < this.vuln.length; i++) {
-          if (this.vuln[i].id == a) {
-            this.title = this.vuln[i]['name'];
-            this.dependency = this.vuln[i]['dependency']
-            this.url = this.vuln[i]['url'];
-          }
-        }
+  async openModal(a: String) {
+    for (var i = 0; i < this.tools.length; i++) {
+      if (this.tools[i].id == a) {
+        this.title = this.tools[i]['name'];
+        this.dependency = this.tools[i]['dependency']
+        this.url = this.tools[i]['url'];
+        this.com = this.tools[i]['lastCommand'];
       }
     }
     const modal = await this.modalController.create({
@@ -49,49 +35,28 @@ export class HomePage implements OnInit {
         title: this.title,
         dependency: this.dependency,
         url: this.url,
+        com: this.com,
       }
     });
     return await modal.present();
   }
 
-  settings() {
-    this.router.navigateByUrl('/settings');
-  }
-
   ngOnInit() {
-    
     return this.http.get("https://api.npoint.io/320b8d2eebac3e349924").subscribe(data => {
-      this.phishingTools = data['phishingTools'];
-      this.informationGathering = data['informationGathering'];
-      this.vuln = data['vulnerability']
+      this.tools = data['tools'];
       this.datas = true;
     })
-  }
+  } 
 
   filterList(evt) {
     var q = evt.target.value;
     console.log(q)
     if (q.trim() == '') {
       this.http.get("https://api.npoint.io/320b8d2eebac3e349924").subscribe(data => {
-        this.phishingTools = data['phishingTools'];
-        this.informationGathering = data['informationGathering'];
-        this.vuln = data['vulnerability'];
-        this.datas = true;
+        this.tools = data['tools'];
       });
     }
-    this.phishingTools = this.phishingTools.filter((evt) => {
-      if (evt.name.toLowerCase().indexOf(q.toLowerCase()) > -1) {
-        return true;
-      }
-      return;
-    })
-    this.informationGathering = this.informationGathering.filter((evt) => {
-      if (evt.name.toLowerCase().indexOf(q.toLowerCase()) > -1) {
-        return true;
-      }
-      return;
-    })
-    this.vuln = this.vuln.filter((evt) => {
+    this.tools = this.tools.filter((evt) => {
       if (evt.name.toLowerCase().indexOf(q.toLowerCase()) > -1) {
         return true;
       }
