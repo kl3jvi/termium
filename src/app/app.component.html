@@ -1,3 +1,41 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-split-pane contentId="main">
+    <!--  the side menu  -->
+    <ion-menu menuId="main" contentId="main">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title mode="ios">Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-menu-toggle>
+            <ion-item
+              lines="none"
+              color="secondary"
+              routerLink="/"
+              routerDirection="forward"
+            >
+              <ion-icon name="home" slot="start"></ion-icon>
+              <ion-label color="medium">Home</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+          <ion-menu-toggle>
+            <ion-item
+              lines="none"
+              color="secondary"
+              routerLink="/port-scanner"
+              routerDirection="forward"
+            >
+              <ion-icon name="location" slot="start"></ion-icon>
+              <ion-label color="medium">Ip Geolocator</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+
+    <!-- the main content -->
+    <ion-router-outlet id="main"></ion-router-outlet>
+  </ion-split-pane>
 </ion-app>

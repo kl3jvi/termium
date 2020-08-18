@@ -1,0 +1,19 @@
+body {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+ion-list {
+  background-color: #393e46;
+}
+ion-item {
+  background-color: #393e46 !important;
+  border-radius: 50px;
+  margin: 7px;
+}
+
+.logo img {
+  width: 30%;
+  margin: 20px;
+}

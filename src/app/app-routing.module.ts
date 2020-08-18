@@ -1,33 +1,38 @@
-import { NgModule } from '@angular/core';
-import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import { SplashGuard } from './guards/splash.guard';
+import { NgModule } from "@angular/core";
+import { PreloadAllModules, RouterModule, Routes } from "@angular/router";
+import { SplashGuard } from "./guards/splash.guard";
 
 const routes: Routes = [
   {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule),
-    
+    path: "",
+    loadChildren: () =>
+      import("./home/home.module").then((m) => m.HomePageModule),
+    canActivate: [SplashGuard],
   },
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full',
-    canActivate: [SplashGuard]
+    path: "tool-setup",
+    loadChildren: () =>
+      import("./modals/tool-setup/tool-setup.module").then(
+        (m) => m.ToolSetupPageModule
+      ),
   },
   {
-    path: 'tool-setup',
-    loadChildren: () => import('./modals/tool-setup/tool-setup.module').then( m => m.ToolSetupPageModule)
+    path: "splashscreen",
+    loadChildren: () =>
+      import("./splashscreen/splashscreen.module").then(
+        (m) => m.SplashscreenPageModule
+      ),
   },
   {
-    path: 'splashscreen',
-    loadChildren: () => import('./splashscreen/splashscreen.module').then( m => m.SplashscreenPageModule)
-  }
+    path: 'port-scanner',
+    loadChildren: () => import('./port-scanner/port-scanner.module').then( m => m.PortScannerPageModule)
+  },
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
+    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules }),
   ],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

@@ -3,162 +3,201 @@
     <ion-title mode="ios">
       Termium
     </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main"></ion-menu-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-item lines="none" color="#393E46">
-    <ion-searchbar (ionInput)="filterList($event)" class="searchi" color="secondary" mode="ios"></ion-searchbar>
+    <ion-searchbar
+      (ionInput)="filterList($event)"
+      class="searchi"
+      color="secondary"
+      mode="ios"
+    ></ion-searchbar>
   </ion-item>
 
   <ion-item lines="none" color="#393E46">
     <ion-label color="medium">Tools List</ion-label>
-    <ion-icon color="secondary" slot="end" name="caret-down-circle"></ion-icon>
+    <ion-icon color="medium" slot="end" name="caret-down-circle"></ion-icon>
   </ion-item>
 
-    <ion-card class="top" *ngFor="let info of tools" class="card-ios" mode="ios">
-      <ion-item *ngIf="datas" (click)="openModal(info.id)">
-        <img class="img" src="https://avatar.oxro.io/avatar.svg?name={{info.name}}">
-        <ion-label>{{info.name}}</ion-label>
-        <p class="category">{{info.category}}</p>
+  <ion-card class="top" *ngFor="let info of tools" class="card-ios" mode="ios">
+    <ion-item *ngIf="datas" (click)="openModal(info.id)">
+      <img
+        class="img"
+        src="https://avatar.oxro.io/avatar.svg?name={{info.name}}"
+      />
+      <ion-label>{{info.name}}</ion-label>
+      <p class="category">{{info.category}}</p>
+    </ion-item>
+  </ion-card>
+
+  <!--skeleton text-->
+
+  <ion-content *ngIf="!datas">
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
       </ion-item>
     </ion-card>
-    
-    <!--skeleton text-->
 
-    <ion-content *ngIf="!datas">
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
 
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
 
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
 
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
 
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
 
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
 
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
 
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
 
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
 
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
 
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
 
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
 
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
-
-      <ion-card class="card-ios" mode="ios">
-        <ion-item>
-          <ion-thumbnail class="img">
-            <ion-skeleton-text animated></ion-skeleton-text>
-          </ion-thumbnail>
-          <ion-label><ion-skeleton-text animated style="width: 80%"></ion-skeleton-text></ion-label>
-        </ion-item>
-      </ion-card>
-
-
-
-
-
-
-    
-      
-    </ion-content>
+    <ion-card class="card-ios" mode="ios">
+      <ion-item>
+        <ion-thumbnail class="img">
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </ion-thumbnail>
+        <ion-label
+          ><ion-skeleton-text animated style="width: 80%;"></ion-skeleton-text
+        ></ion-label>
+      </ion-item>
+    </ion-card>
+  </ion-content>
+  <ion-item class="conter" lines="none" color="#393E46">
+    <ion-label class="contr" color="medium">Want to Contribute?</ion-label>
+  </ion-item>
+  <ion-item lines="none" color="#393E46">
+    <a href="https://github.com/kl3jvi/termium"
+      ><ion-icon class="gitIcon" color="danger" name="logo-github"></ion-icon
+    ></a>
+  </ion-item>
 </ion-content>

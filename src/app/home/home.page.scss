@@ -1,29 +1,47 @@
-.k{
+.k {
   height: 100px;
 }
-.card-ios{
+.card-ios {
   margin: 8px;
 }
-.img{
+.img {
   width: 30px;
   height: 30px;
   margin: 1px;
   border-radius: 4px;
 }
 
-.searchi{
-  padding: 1px;
+.searchi {
+  padding: 0, 20px;
+  margin: 0px;
 }
-
-
-.med{
+.conter {
+  width: 100%;
+}
+.contr {
+  text-align: center;
+}
+a {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+.gitIcon {
+  height: 40px;
+  width: 40px;
+}
+.med {
   color: #e3e3e3;
 }
-ion-label{
+ion-label {
   padding-left: 6px;
 }
-.category{
-  color: #393E46;
+.category {
+  color: #393e46;
   font-size: smaller;
 }
 
+.linux {
+  width: 100%;
+  height: 150px;
+}

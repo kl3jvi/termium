@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title mode="ios">IP Geolocator</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item class="item" lines="none" color="#393E46">
+    <ion-input
+      [(ngModel)]="host"
+      placeholder="Input Your URL"
+      class="pe"
+    ></ion-input>
+  </ion-item>
+
+  <div class="but">
+    <ion-button (click)="scan()" color="dark">
+      <ion-icon slot="start" name="scan-circle"></ion-icon>
+      Scan URL
+    </ion-button>
+  </div>
+  <div *ngIf="data">
+    <ion-card mode="ios" class="cardio">
+      <ion-item lines="full">
+        <ion-label color="#fff"
+          >Country: {{data.country_name}} {{data.emoji_flag}}
+        </ion-label>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-label>
+          Region: {{data.region}}
+        </ion-label>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-label>
+          Latitude: {{data.latitude}}
+        </ion-label>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-label>
+          Longitude: {{data.longitude}}
+        </ion-label>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-label>
+          Using TOR?: {{data.threat.is_tor}}
+        </ion-label>
+      </ion-item>
+    </ion-card>
+  </div>
+</ion-content>

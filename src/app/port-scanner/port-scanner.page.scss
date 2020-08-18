@@ -1,0 +1,32 @@
+.pe {
+  border-radius: 10px !important;
+
+  text-align: center;
+  font-size: 0.9em;
+  border: 1px solid #f1f1f1 !important;
+  --background: #222831 !important;
+
+  color: #fff !important;
+}
+
+.item {
+  margin: 10px;
+}
+
+.but {
+  width: 100%;
+  text-align: center;
+}
+
+ion-item {
+  margin: 0;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.cardio {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://senoform.com/wp-content/uploads/2018/10/seno-sa-senosan-grey-blue.jpg");
+}

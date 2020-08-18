@@ -9,22 +9,37 @@
 
 <ion-content>
   <ion-card>
-    <div class=fakeMenu>
+    <div class="fakeMenu">
       <div class="fakeButtons fakeClose"></div>
       <div class="fakeButtons fakeMinimize"></div>
       <div class="fakeButtons fakeZoom"></div>
     </div>
     <div class="fakeScreen">
-      <p class="line1">[{{user}}@termium] $ <span class="cursor1">apt update</span></p>
-      <p class="line1">[{{user}}@termium] $ <span class="cursor1">apt upgrade</span></p>
-      <p *ngFor="let package_name of dependency" class="line1">[{{user}}@termium] $ <span class="cursor1">pkg install
-          {{package_name}}</span></p>
-      <p class="line1">[{{user}}@termium] $ <span class="cursor1">git clone {{url}}</span></p>
-      <p class="line1">[{{user}}@termium] $ <span class="cursor1">Usage:_ </span></p>
-      <p class="line1">[{{user}}@termium] $ <span class="cursor1">cd {{title}}</span></p>
-      <p class="line1">[{{user}}@termium] $ <span class="cursor1">chmod +x *</span></p>
-      <p *ngFor="let command of com" class="line1">[{{user}}@termium] $ <span class="cursor1">{{command}}</span></p>
+      <p class="line1">
+        [{{user}}@termium] $ <span class="cursor1">apt update</span>
+      </p>
+      <p class="line1">
+        [{{user}}@termium] $ <span class="cursor1">apt upgrade</span>
+      </p>
+      <p *ngFor="let package_name of dependency" class="line1">
+        [{{user}}@termium] $
+        <span class="cursor1">pkg install {{package_name}}</span>
+      </p>
+      <p class="line1">
+        [{{user}}@termium] $ <span class="cursor1">git clone {{url}}</span>
+      </p>
+      <p class="line1">
+        [{{user}}@termium] $ <span class="cursor1">Usage:_ </span>
+      </p>
+      <p class="line1">
+        [{{user}}@termium] $ <span class="cursor1">cd {{title}}</span>
+      </p>
+      <p class="line1">
+        [{{user}}@termium] $ <span class="cursor1">chmod +x *</span>
+      </p>
+      <p *ngFor="let command of com" class="line1">
+        [{{user}}@termium] $ <span class="cursor1">{{command}}</span>
+      </p>
     </div>
   </ion-card>
-  
 </ion-content>
