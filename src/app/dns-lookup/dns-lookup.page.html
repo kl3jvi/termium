@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title mode="ios">Dns LookUp</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-item class="item" lines="none" color="#393E46">
+    <ion-input
+      [(ngModel)]="domain"
+      placeholder="Input Your Domain"
+      class="pe"
+    ></ion-input>
+  </ion-item>
+  <div class="but">
+    <ion-button slot="start" (click)="lookUpDns()" color="dark">
+      <ion-icon slot="start" name="search"></ion-icon>
+      Look Up
+    </ion-button>
+  </div>
+
+  <ion-item *ngFor="let dns of dnsData" lines="none" color="#393E46">
+    <ion-card class="cardContent">
+      <ion-label>Type: {{dns.type}}</ion-label>
+      <ion-label>DNS type: {{dns.dnsType}}</ion-label>
+      <ion-label>Name: {{dns.name}}</ion-label>
+      <ion-label>TTL: {{dns.ttl}}</ion-label>
+      <ion-label>RRset type: {{dns.rRsetType}}</ion-label>
+      <ion-label>Strings: {{dns.strings}}</ion-label>
+    </ion-card>
+  </ion-item>
+</ion-content>

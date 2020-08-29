@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'port-scanner',
     loadChildren: () => import('./port-scanner/port-scanner.module').then( m => m.PortScannerPageModule)
   },
+  {
+    path: 'dns-lookup',
+    loadChildren: () => import('./dns-lookup/dns-lookup.module').then( m => m.DnsLookupPageModule)
+  },
 ];
 
 @NgModule({

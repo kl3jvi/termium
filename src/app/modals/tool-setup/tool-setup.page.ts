@@ -2,6 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { ModalController } from "@ionic/angular";
 import { Storage } from "@ionic/storage";
 import { AdmobFreeService } from "../../admob.service";
+import { Clipboard } from "@ionic-native/clipboard/ngx";
 @Component({
   selector: "app-tool-setup",
   templateUrl: "./tool-setup.page.html",
@@ -15,7 +16,8 @@ export class ToolSetupPage implements OnInit {
   constructor(
     private admobFreeService: AdmobFreeService,
     private modalController: ModalController,
-    private storage: Storage
+    private storage: Storage,
+    private clipboard: Clipboard
   ) {}
   title: any;
   dependency: any;
@@ -33,5 +35,9 @@ export class ToolSetupPage implements OnInit {
   async closeModal() {
     await this.modalController.dismiss();
     this.admobFreeService.hideBanner();
+  }
+
+  copy() {
+    this.clipboard.copy(this.url);
   }
 }

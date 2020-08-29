@@ -1,7 +1,7 @@
 import { HttpClient } from "@angular/common/http";
 import { Component, OnInit } from "@angular/core";
 import { AlertController } from "@ionic/angular";
-
+import { AdmobFreeService } from "../admob.service";
 @Component({
   selector: "app-port-scanner",
   templateUrl: "./port-scanner.page.html",
@@ -13,16 +13,20 @@ export class PortScannerPage {
   data;
   constructor(
     private http: HttpClient,
-    public alertController: AlertController
+    public alertController: AlertController,
+    private admobFreeService: AdmobFreeService
   ) {}
 
   scan() {
     if (this.host != "") {
-      return this.http
+      this.http
         .get("https://api.ipdata.co/" + this.host + "?api-key=" + this.API_KEY)
         .subscribe((data) => {
           this.data = data;
         });
+      setTimeout(() => {
+        this.admobFreeService.ShowInterstitial();
+      }, 2000);
     } else {
       this.presentAlert();
     }
@@ -30,7 +34,6 @@ export class PortScannerPage {
 
   async presentAlert() {
     const alert = await this.alertController.create({
-      cssClass: "my-custom-class",
       header: "Caution",
       message: "Please enter an IP Address",
       buttons: ["OK"],

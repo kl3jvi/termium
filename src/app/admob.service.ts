@@ -8,7 +8,20 @@ import { Platform } from "@ionic/angular";
 
 @Injectable()
 export class AdmobFreeService {
-  constructor(private admobFree: AdMobFree, public platform: Platform) {}
+  interstitialConfig: AdMobFreeInterstitialConfig = {
+    isTesting: true,
+  };
+  constructor(private admobFree: AdMobFree, public platform: Platform) {
+    platform.ready().then(() => {
+      this.admobFree.interstitial.config(this.interstitialConfig);
+      this.admobFree.interstitial
+        .prepare()
+        .then(() => {
+          console.log("INTERSTIAL LOADED");
+        })
+        .catch((e) => console.log("PROBLEM LOADING INTERSTITIAL: ", e));
+    });
+  }
 
   BannerAd() {
     let bannerConfig: AdMobFreeBannerConfig = {
@@ -19,6 +32,22 @@ export class AdmobFreeService {
     };
     this.admobFree.banner.config(bannerConfig);
     this.admobFree.banner.prepare();
+  }
+
+  ShowInterstitial() {
+    //CHECK AND SHOW INTERSTITIAL
+    this.admobFree.interstitial
+      .isReady()
+      .then(() => {
+        //AT .ISREADY SHOW
+        this.admobFree.interstitial
+          .show()
+          .then(() => {
+            console.log("INTERSTITIAL LOADED");
+          })
+          .catch((e) => console.log("PROBLEM LOADING : ", e));
+      })
+      .catch((e) => console.log("PROBLEM LOADING : ", e));
   }
 
   hideBanner() {
